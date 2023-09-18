@@ -9,6 +9,7 @@ import Count from './Components/Count/Count'
 import Work from './Components/OurWork/Work'
 import Footer from './Components/Footer/Footer'
 import Copyright from './Components/Copyright/Copyright'
+// import Navbar from './Components/NavBar/NavBar'
 
 // import Printivo from './Components/Printivo'
 
@@ -17,6 +18,7 @@ function App() {
   return (
     <>
       <NavBar />
+      {/* <NavBar /> */}
       <Hero />
       <Shop />
       <Cards />
