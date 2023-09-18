@@ -1,6 +1,6 @@
 import './App.css'
 import Hero from './Components/Hero/Hero'
-import Navbar from './Components/Navbar/Navbar'
+import NavBar from './Components/NavBar/NavBar'
 import Shop from './Components/Shop/Shop'
 import Cards from './Components/Cards/Cards'
 import Brands from './Components/Brands/Brands'
@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-      <Navbar />
+      <NavBar />
       <Hero />
       <Shop />
       <Cards />
