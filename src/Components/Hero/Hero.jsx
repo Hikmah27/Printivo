@@ -1,5 +1,5 @@
 import React from 'react'
-import {BsCart } from 'react-icons/Bs';
+// import {BsCart } from 'react-icons/Bs';
 import image from "../../../Images/navImage.svg"
 import heroImage from "../../../Images/heroImg.webp"
 import search from "../../../Images/search.svg"
@@ -40,7 +40,7 @@ const Hero = () => {
                                             <a className="nav-link active text-secondary" href="#">Create Account</a>
                                         </li>
                                     </ul>
-                                    <BsCart className='ms-5 fs-5' />
+                                    {/* <BsCart className='ms-5 fs-5' /> */}
                                 </div>
                             </div>
                         </nav>
