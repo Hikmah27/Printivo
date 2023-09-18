@@ -4,6 +4,7 @@ import image from "../../../Images/navImage.svg"
 import heroImage from "../../../Images/heroImg.webp"
 import search from "../../../Images/search.svg"
 import styles from "./Hero.module.css";
+import { FiShoppingCart } from 'react-icons/Fi';
 
 const Hero = () => {
     return (
@@ -40,7 +41,7 @@ const Hero = () => {
                                             <a className="nav-link active text-secondary" href="#">Create Account</a>
                                         </li>
                                     </ul>
-                                    {/* <FiShoppingCart className='ms-5 fs-5' /> */}
+                                    <FiShoppingCarts className='ms-5 fs-5' />
                                 </div>
                             </div>
                         </nav>
