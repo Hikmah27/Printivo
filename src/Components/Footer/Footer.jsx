@@ -1,8 +1,8 @@
 import React from 'react'
-import { FiFacebook } from "react-icons/Fi";
-import { FaInstagram } from "react-icons/Fa";
-import {RxTwitterLogo} from "react-icons/Rx";
-import {SlSocialLinkedin} from "react-icons/Sl";
+import { FiFacebook} from 'react-icons/fi'
+import { FaInstagram } from "react-icons/fa";
+import {RxTwitterLogo} from "react-icons/rx";
+import {SlSocialLinkedin} from "react-icons/sl";
 import styles  from "./Footer.module.css";
 
 const Footer = () => {
