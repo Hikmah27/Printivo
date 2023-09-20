@@ -59,7 +59,7 @@ const Hero = () => {
                         </div>
                     </div>
                     <div>
-                        <img src={heroImage} className='mt-5' style={{ marginLeft: "230px", width: "65%" }} id='hand'/>
+                        <img src={heroImage} className='hand mt-5' style={{ marginLeft: "230px", width: "65%", display: "block" }} />
                     </div>
                 </div>
             </section>

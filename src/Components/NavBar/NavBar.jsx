@@ -1,6 +1,7 @@
 import React from 'react'
 import whatsapp from "../../../Images/whatsapp.svg"
 import flag from "../../../Images/flag.svg"
+import styles  from "./NavBar.module.css";
 
 
 const Navbar = () => {
@@ -14,19 +15,19 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav" style={{ fontWeight: "500", color: "rgb(56, 74, 98)" }}>
               <li className="nav-item">
-                <a className="nav-link active text-secondary" aria-current="page" href="#" style={{ marginLeft: "60px" }}>Cost Calculator</a>
+                <a className="cost nav-link active text-secondary" aria-current="page" href="#" style={{ marginLeft: "60px", display: "block" }}>Cost Calculator</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active text-secondary" href="#">Discover Stores</a>
+                <a className="discover nav-link active text-secondary" href="#" style={{ display: "block" }}>Discover Stores</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active text-secondary" href="#">Track Orders</a>
+                <a className="track nav-link active text-secondary" href="#" style={{ display: "block" }}>Track Orders</a>
               </li>
-              <li className="nav-item active mt-2 text-secondary" style={{ marginLeft: "250px" }}>Need help? Call:<a href='' className='mx-1 text-primary'>+2348091084333</a>
+              <li className="help nav-item active mt-2 text-secondary" style={{ marginLeft: "250px", display: "block" }}>Need help? Call:<a href='' className='numbers mx-1 text-primary' style={{ display: "block" }}>+2348091084333</a>
               </li>
             </ul>
-            <img src={whatsapp} className='mx-5' />
-            <div className='rounded-5 mx-5' style={{ padding: "8px 10px", border: "1px solid #cbcac8" }}>
+            <img src={whatsapp} className='whatsapp mx-5'  style={{ display: "block" }} />
+            <div className='Nigeria rounded-5 mx-5' style={{ padding: "8px 10px", border: "1px solid #cbcac8", display: "block" }}>
               <img src={flag} className='mx-2' />
               <span className='text-secondary' style={{ fontWeight: "500" }}>Nigeria</span>
             </div>

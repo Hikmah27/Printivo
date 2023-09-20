@@ -1,0 +1,23 @@
+@media screen and (max-width: 768px) {
+  .Nigeria {
+    display: block;
+  }
+  .whatsapp {
+    display: block;
+  }
+  .numbers {
+    display: block;
+  }
+  .help {
+    display: none;
+  }
+  .track {
+    display: none;
+  }
+  .discover {
+    display: none;
+  }
+  .cost {
+    display: none;
+  }
+}
