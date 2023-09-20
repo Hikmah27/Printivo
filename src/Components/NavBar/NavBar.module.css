@@ -3,25 +3,25 @@ ul li .toplink {
     font-weight: 500;
 }
 @media screen and (max-width: 768px) {
-  ul li a .Nigeria {
+   .nigeria {
     display: block;
   }
-  ul li a .whatsapp {
+   .whatsapp {
     display: block;
   }
-  ul li a .numbers {
+   .numbers {
     display: block;
   }
-  ul li .help {
+ .help {
     display: none;
   }
-  ul li a .track {
+   .track {
     display: none;
   }
-  ul li a .discover {
+   .discover {
     display: none;
   }
-  ul li a .cost {
+   .cost {
     display: none;
   }
 }

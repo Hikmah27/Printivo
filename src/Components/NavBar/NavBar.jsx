@@ -3,7 +3,6 @@ import whatsapp from "../../../Images/whatsapp.svg"
 import flag from "../../../Images/flag.svg"
 import styles  from "./NavBar.module.css";
 
-
 const Navbar = () => {
   return (
     <div>
@@ -29,7 +28,7 @@ const Navbar = () => {
               </ul>
             </div>
             <img src={whatsapp} className='whatsapp mx-5'  style={{ display: "block" }} />
-            <div className='Nigeria rounded-5 mx-5' style={{ padding: "8px 10px", border: "1px solid #cbcac8", display: "block" }}>
+            <div className='nigeria rounded-5 mx-5' style={{ padding: "8px 10px", border: "1px solid #cbcac8", display: "block" }}>
               <img src={flag} className='mx-2' />
               <span className='text-secondary' style={{ fontWeight: "500" }}>Nigeria</span>
             </div>
