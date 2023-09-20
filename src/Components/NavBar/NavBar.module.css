@@ -1,3 +1,7 @@
+.toplink {
+    color: rgb(56, 74, 98);
+    font-weight: 500;
+}
 @media screen and (max-width: 768px) {
   .Nigeria {
     display: block;
