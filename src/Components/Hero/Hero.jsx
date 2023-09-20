@@ -63,7 +63,7 @@ const Hero = () => {
                     </div>
                 </div>
             </section>
-        </div>
+        </div> 
     )
 }
 

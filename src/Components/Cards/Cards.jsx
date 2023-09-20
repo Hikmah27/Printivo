@@ -1,4 +1,5 @@
 import React from 'react'
+import { businessCards } from "../../../Images/businessCards";
 
 const Cards = () => {
     return (
@@ -12,7 +13,7 @@ const Cards = () => {
                     <div className="row mb-4">
                         <div className="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3" style={{height: "27rem"}}>
                             <div className="card text-secondary pb-1 border border-1" style={{ height: "100%" }}>
-                                <img src="images/businessCards.jpg" className="card-img-top" alt="business cards" style={{ width: "100%", height: "14rem", objectFit: "cover" }} />
+                                <img src={businessCards} className="card-img-top" alt="business cards" style={{ width: "100%", height: "14rem", objectFit: "cover" }} />
                                 <div className="card-body">
                                     <h5 className="card-title fs-5">Two-sided Business Cards</h5>
                                     <p className="card-text fw-bold mt-2">STARTING AT</p>
