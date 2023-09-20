@@ -24,7 +24,7 @@ const Navbar = () => {
                 <li className="nav-item">
                   <a className="track nav-link active text-secondary" href="#" style={{ display: "block" }}>Track Orders</a>
                 </li>
-                <li className="help nav-item active mt-2 text-secondary" style={{ marginLeft: "250px", display: "block" }}>Need help? Call:<a href='' className='numbers mx-1 text-primary' style={{ display: "block" }}>+2348091084333</a>
+                <li className="help nav-item active mt-2 text-secondary" style={{ marginLeft: "250px", display: "block" }}>Need help? Call:<a href='#' className='numbers mx-1 text-primary' style={{ display: "block" }}>+2348091084333</a>
                 </li>
               </ul>
             </div>

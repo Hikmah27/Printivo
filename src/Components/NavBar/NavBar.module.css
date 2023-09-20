@@ -3,25 +3,25 @@
     font-weight: 500;
 }
 @media screen and (max-width: 768px) {
-  .Nigeria {
+  ul li a .Nigeria {
     display: block;
   }
-  .whatsapp {
+  ul li a .whatsapp {
     display: block;
   }
-  .numbers {
+  ul li a .numbers {
     display: block;
   }
-  .help {
+  ul li .help {
     display: none;
   }
-  .track {
+  ul li a .track {
     display: none;
   }
-  .discover {
+  ul li a .discover {
     display: none;
   }
-  .cost {
+  ul li a .cost {
     display: none;
   }
 }
