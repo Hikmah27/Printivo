@@ -1,5 +1,6 @@
 import React from 'react'
-import { businessCards } from "../../../Images/businessCards";
+import { businessCards } from "../../../Images/businessCards.jpg";
+import { flyer } from "../../../Images/flyer.jpg";
 
 const Cards = () => {
     return (
@@ -28,7 +29,7 @@ const Cards = () => {
                         </div>
                         <div className="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3" style={{height: "27rem"}}>
                             <div className="card text-secondary pb-3 border border-1" style={{ height: "100%" }}>
-                                <img src="images/flyer.jpg" className="card-img-top" alt="flyer" style={{ width: "100%", height: "14rem", objectFit: "cover" }} />
+                                <img src={flyer} className="card-img-top" alt="flyer" style={{ width: "100%", height: "14rem", objectFit: "cover" }} />
                                 <div className="card-body">
                                     <h5 className="card-title fs-5">A5 flyers (Single Sided)</h5>
                                     <p className="card-text fw-bold mt-3">STARTING AT</p>
