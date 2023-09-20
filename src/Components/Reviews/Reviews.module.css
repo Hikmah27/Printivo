@@ -1,11 +1,8 @@
 @media screen and (max-width:768px) {
-    .images{
-        width: 100%;
-    }
     .styles.cardOne{
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     .styles.cardTwo{
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 }

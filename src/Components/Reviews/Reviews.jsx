@@ -1,6 +1,6 @@
 import React from 'react'
 import twitter from "../../../Images/twitter.svg";
-import styles from "Reviews.module.css";
+import styles from "./Reviews.module.css";
 
 const Reviews = () => {
     return (

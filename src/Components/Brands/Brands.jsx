@@ -1,6 +1,6 @@
 import React from 'react'
 import groupImg from "../../../Images/groupImg.png";
-import styles from "Brands.module.css";
+import styles from "./Brands.module.css";
 
 const Brands = () => {
     return (
