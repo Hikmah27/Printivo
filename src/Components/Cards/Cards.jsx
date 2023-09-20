@@ -1,6 +1,6 @@
 import React from 'react'
-import { businessCards } from "../../../Images/businessCards.jpg";
-import { flyer } from "../../../Images/flyer.jpg";
+import  businessCards from "../../../Images/businessCards.jpg";
+import  flyer from "../../../Images/flyer.jpg";
 
 const Cards = () => {
     return (
