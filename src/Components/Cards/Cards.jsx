@@ -1,6 +1,18 @@
 import React from 'react'
 import  businessCards from "../../../Images/businessCards.jpg";
 import  flyer from "../../../Images/flyer.jpg";
+import roundStickers from "../../../Images/roundStickers.jpg";
+import simpleMugs from "../../../Images/simpleMugs.jpg";
+import postcards from "../../../Images/postcards.jpg";
+import rollupBanner from "../../../Images/rollupBanner.jpg";
+import posters from "../../../Images/posters.jpg";
+import brochure from "../../../Images/brochure.jpg";
+import landscapeId from "../../../Images/landscapeId.jpg";
+import tShirt from "../../../Images/tShirt.jpg";
+import aFour from "../../../Images/aFour.jpg";
+import courier from "../../../Images/courier.jpg";
+import greetingCards from "../../../Images/greetingCards.jpg";
+import stickers from "../../../Images/stickers.jpg";
 
 const Cards = () => {
     return (
@@ -44,7 +56,7 @@ const Cards = () => {
                         </div>
                         <div className="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3" style={{height: "27rem"}}>
                             <div className="card text-secondary pb-1 border border-1" style={{ height: "100%" }}>
-                                <img src="images/roundStickers.jpg" className="card-img-top" alt="Round Stickers" style={{ width: "100%", height: "14rem", objectFit: "cover" }} />
+                                <img src={roundStickers} className="card-img-top" alt="Round Stickers" style={{ width: "100%", height: "14rem", objectFit: "cover" }} />
                                 <div className="card-body">
                                     <h5 className="card-title fs-5">Round Stickers (3.5" Diameter)</h5>
                                     <p className="card-text fw-bold mt-2">STARTING AT</p>
@@ -59,7 +71,7 @@ const Cards = () => {
                         </div>
                         <div className="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3" style={{height: "27rem"}}>
                             <div className="card text-secondary pb-3 border border-1" style={{ height: "100%" }}>
-                                <img src="images/simpleMugs.jpg" className="card-img-top" alt="Simple mugs" style={{ width: "100%", height: "14rem", objectFit: "cover" }} />
+                                <img src={simpleMugs} className="card-img-top" alt="Simple mugs" style={{ width: "100%", height: "14rem", objectFit: "cover" }} />
                                 <div className="card-body">
                                     <h5 className="card-title fs-5">Simple Mugs</h5>
                                     <p className="card-text fw-bold mt-3">STARTING AT</p>
@@ -78,7 +90,7 @@ const Cards = () => {
                     <div className="row mb-4">
                         <div className="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3" style={{height: "27rem"}}>
                             <div className="card text-secondary pb-3 border border-1" style={{ height: "100%" }}>
-                                <img src="images/postcards.jpg" className="card-img-top" alt="post cards" style={{ width: "100%", height: "14rem", objectFit: "cover" }} />
+                                <img src={postcards} className="card-img-top" alt="post cards" style={{ width: "100%", height: "14rem", objectFit: "cover" }} />
                                 <div className="card-body">
                                     <h5 className="card-title fs-5">Postcards (A6)</h5>
                                     <p className="card-text fw-bold mt-3">STARTING AT</p>
@@ -93,7 +105,7 @@ const Cards = () => {
                         </div>
                         <div className="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3" style={{height: "27rem"}}>
                             <div className="card text-secondary pb-1 border border-1" style={{ height: "100%" }}>
-                                <img src="images/rollupBanner.jpg" className="card-img-top" alt="banner" style={{ width: "100%", height: "14rem", objectFit: "cover" }} />
+                                <img src={rollupBanner} className="card-img-top" alt="banner" style={{ width: "100%", height: "14rem", objectFit: "cover" }} />
                                 <div className="card-body">
                                     <h5 className="card-title fs-5">Roll Up Banners (Big Base)</h5>
                                     <p className="card-text fw-bold mt-2">STARTING AT</p>
@@ -108,7 +120,7 @@ const Cards = () => {
                         </div>
                         <div className="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3" style={{height: "27rem"}}>
                             <div className="card text-secondary pb-3 border border-1" style={{ height: "100%" }}>
-                                <img src="images/posters.jpg" className="card-img-top" alt="Posters" style={{ width: "100%", height: "14rem", objectFit: "cover" }} />
+                                <img src={posters} className="card-img-top" alt="Posters" style={{ width: "100%", height: "14rem", objectFit: "cover" }} />
                                 <div className="card-body">
                                     <h5 className="card-title fs-5">A2 Posters</h5>
                                     <p className="card-text fw-bold mt-3">STARTING AT</p>
@@ -123,7 +135,7 @@ const Cards = () => {
                         </div>
                         <div className="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3" style={{height: "27rem"}}>
                             <div className="card text-secondary pb-3 border border-1" style={{ height: "100%" }}>
-                                <img src="images/brochure.jpg" className="card-img-top" alt="Trifold Brochure" style={{ width: "100%", height: "14rem", objectFit: "cover" }} />
+                                <img src={brochure} className="card-img-top" alt="Trifold Brochure" style={{ width: "100%", height: "14rem", objectFit: "cover" }} />
                                 <div className="card-body">
                                     <h5 className="card-title fs-5">Trifold Brochures</h5>
                                     <p className="card-text fw-bold mt-3">STARTING AT</p>
@@ -142,7 +154,7 @@ const Cards = () => {
                     <div className="row mb-1">
                         <div className="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3" style={{height: "27rem"}}>
                             <div className="card text-secondary pb-3 border border-1" style={{ height: "100%" }}>
-                                <img src="images/landscapeId.jpg" className="card-img-top" alt="business cards" style={{ width: "100%", height: "14rem", objectFit: "cover" }} />
+                                <img src={landscapeId} className="card-img-top" alt="business cards" style={{ width: "100%", height: "14rem", objectFit: "cover" }} />
                                 <div className="card-body">
                                     <h5 className="card-title fs-5">Landscape ID Cards</h5>
                                     <p className="card-text fw-bold mt-3">STARTING AT</p>
@@ -157,7 +169,7 @@ const Cards = () => {
                         </div>
                         <div className="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3" style={{height: "27rem"}}>
                             <div className="card text-secondary pb-3 border border-1" style={{ height: "100%" }}>
-                                <img src="images/tShirt.jpg" className="card-img-top" alt="flyer" style={{ width: "100%", height: "14rem", objectFit: "cover" }} />
+                                <img src={tShirt} className="card-img-top" alt="flyer" style={{ width: "100%", height: "14rem", objectFit: "cover" }} />
                                 <div className="card-body">
                                     <h5 className="card-title fs-5">Off White T-shirts</h5>
                                     <p className="card-text fw-bold mt-3">STARTING AT</p>
@@ -172,7 +184,7 @@ const Cards = () => {
                         </div>
                         <div className="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3" style={{height: "27rem"}}>
                             <div className="card text-secondary pb-3 border border-1" style={{ height: "100%" }}>
-                                <img src="images/aFour.jpg" className="card-img-top" alt="Round Stickers" style={{ width: "100%", height: "14rem", objectFit: "cover" }} />
+                                <img src={aFour} className="card-img-top" alt="Round Stickers" style={{ width: "100%", height: "14rem", objectFit: "cover" }} />
                                 <div className="card-body">
                                     <h5 className="card-title fs-5">A4 Branded Paper Bags</h5>
                                     <p className="card-text fw-bold mt-3">STARTING AT</p>
@@ -187,7 +199,7 @@ const Cards = () => {
                         </div>
                         <div className="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3" style={{height: "27rem"}}>
                             <div className="card text-secondary pb-3 border border-1" style={{ height: "100%" }}>
-                                <img src="images/courier.jpg" className="card-img-top" alt="Simple mugs" style={{ width: "100%", height: "14rem", objectFit: "cover" }} />
+                                <img src= {courier} className="card-img-top" alt="Simple mugs" style={{ width: "100%", height: "14rem", objectFit: "cover" }} />
                                 <div className="card-body">
                                     <h5 className="card-title fs-5">A4 Courier Bags</h5>
                                     <p className="card-text fw-bold mt-3">STARTING AT</p>
@@ -213,7 +225,7 @@ const Cards = () => {
                 <div className="row">
                     <div className="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3" style={{height: "27rem"}}>
                         <div className="card text-secondary pb-3 border border-1" style={{ height: "100%" }}>
-                            <img src="images/greetingCards.jpg" className="card-img-top" alt="greeting cards" style={{ width: "100%", height: "14rem", objectFit: "cover" }} />
+                            <img src= {greetingCards} className="card-img-top" alt="greeting cards" style={{ width: "100%", height: "14rem", objectFit: "cover" }} />
                             <div className="card-body">
                                 <h5 className="card-title fs-5">Greeting Cards</h5>
                                 <p className="card-text fw-bold mt-3">STARTING AT</p>
@@ -228,7 +240,7 @@ const Cards = () => {
                     </div>
                     <div className="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3" style={{height: "27rem"}}>
                         <div className="card text-secondary pb-3 border border-1" style={{ height: "100%" }}>
-                            <img src="images/stickers.jpg" className="card-img-top" alt="flyer" style={{ width: "100%", height: "14rem", objectFit: "cover" }} />
+                            <img src= {stickers} className="card-img-top" alt="flyer" style={{ width: "100%", height: "14rem", objectFit: "cover" }} />
                             <div className="card-body">
                                 <h5 className="card-title fs-5">Stickers</h5>
                                 <p className="card-text fw-bold mt-3">STARTING AT</p>

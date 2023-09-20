@@ -34,7 +34,7 @@ const Hero = () => {
                                             <a className="nav-link active text-secondary" href="#">Marketplace</a>
                                         </li>
                                         <li className="nav-item me-3">
-                                            <a className="nav-link active text-secondary" href="#">Sign in</a>
+                                            <a className="nav-link active text-danger" href="#">Sign in</a>
                                         </li>
                                         <li className="nav-item">
                                             <a className="nav-link active text-secondary" href="#">Create Account</a>

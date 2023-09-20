@@ -1,4 +1,7 @@
 import React from 'react'
+import topFirst from "../../../Images/topFirst.svg";
+import topSecond from "../../../Images/topSecond.svg";
+import topThird from "../../../Images/topThird.svg";
 
 const Count = () => {
     return (
@@ -10,7 +13,7 @@ const Count = () => {
                         <div className="col-4">
                             <div className="d-flex">
                                 <div>
-                                    <img src="images/topFirst.svg" alt="" />
+                                    <img src={topFirst} alt="" />
                                 </div>
                                 <div className='ms-2'>
                                     <h5 className='fw-bolder'>Fast Turnaround Within Days</h5>
@@ -21,7 +24,7 @@ const Count = () => {
                         <div className="col-4">
                             <div className="d-flex">
                                 <div>
-                                    <img src="images/topSecond.svg" alt="" />
+                                    <img src={topSecond} alt="" />
                                 </div>
                                 <div className='ms-2'>
                                     <h5 className='fw-bolder'>100% Top Quality</h5>
@@ -33,7 +36,7 @@ const Count = () => {
                         <div className="col-4">
                             <div className="d-flex">
                                 <div>
-                                    <img src="images/topThird.svg" alt="" />
+                                    <img src= {topThird} alt="" />
                                 </div>
                                 <div className='ms-2'>
                                     <h5 className='fw-bolder'>Affordable Services</h5>

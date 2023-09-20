@@ -1,4 +1,5 @@
 import React from 'react'
+import groupImg from "../../../Images/groupImg.png";
 
 const Brands = () => {
     return (
@@ -12,7 +13,7 @@ const Brands = () => {
                     </h2>
                     <h4 className='fw-bold'>Our print services and solutions are trusted by these brands and <br /> over 15,000 other businesses in Nigeria.</h4>
                     <div className="images">
-                        <img src="images/groupImg.png" alt="" />
+                        <img src={groupImg} alt="" />
                     </div>
                 </div>
             </div>

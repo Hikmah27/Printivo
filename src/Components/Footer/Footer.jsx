@@ -4,6 +4,8 @@ import { FaInstagram } from "react-icons/fa";
 import {RxTwitterLogo} from "react-icons/rx";
 import {SlSocialLinkedin} from "react-icons/sl";
 import styles  from "./Footer.module.css";
+import payment from "../../../Images/payment.png";
+import shipping from "../../../Images/shipping.png";
 
 const Footer = () => {
     return (
@@ -85,9 +87,9 @@ const Footer = () => {
                             <FaInstagram className='ms-4' />
                         </div>
                         <h5 className='mt-4 mb-3'>Accepted Payments</h5>
-                        <img src="images/payment.png" alt="" style={{ width: "100%" }} />
+                        <img src={payment} alt="" style={{ width: "100%" }} />
                         <h5 className='mt-3'>Delivery</h5>
-                        <img src="images/shipping.png" alt="" style={{ width: "90%" }} />
+                        <img src={shipping} alt="" style={{ width: "90%" }} />
                     </div>
                 </div>
             </footer>

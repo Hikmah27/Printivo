@@ -1,4 +1,5 @@
 import React from 'react'
+import twitter from "../../../Images/twitter.svg";
 
 const Reviews = () => {
     return (
@@ -12,7 +13,7 @@ const Reviews = () => {
                         <div className="card col-lg-4 col-sm-12 col-md-4 me-4" style={{ width: "24rem" }}>
                             <div className="card-body">
                                 <div className="d-flex">
-                                    <img src="images/twitter.svg" alt="" className='rounded-circle p-2 border border-1 bg-light' />
+                                    <img src= {twitter} alt="" className='rounded-circle p-2 border border-1 bg-light' />
                                     <h5 className="card-title ms-3 col-7">Amina Ebele
                                         <span><a href="#" className='mx-1'>@DeliciousAmina</a></span>
                                     </h5>
@@ -25,7 +26,7 @@ const Reviews = () => {
                         <div className="card col-lg-4 col-sm-12 col-md-4 me-4" style={{ width: "24rem" }}>
                             <div className="card-body">
                                 <div className="d-flex">
-                                    <img src="images/twitter.svg" alt="" className='rounded-circle p-2 border border-1 bg-light' />
+                                    <img src={twitter} alt="" className='rounded-circle p-2 border border-1 bg-light' />
                                     <h5 className="card-title ms-3 col-7">Oluwatosin
                                         <span><a href="#" className='mx-1'>@tosingirlfx</a></span>
                                     </h5>
@@ -38,7 +39,7 @@ const Reviews = () => {
                         <div className="card col-lg-4 col-sm-12 col-md-4" style={{ width: "24rem" }}>
                             <div className="card-body">
                                 <div className="d-flex">
-                                    <img src="images/twitter.svg" alt="" className='rounded-circle p-2 border border-1 bg-light' />
+                                    <img src={twitter} alt="" className='rounded-circle p-2 border border-1 bg-light' />
                                     <h5 className="card-title ms-3 col-7">Oluwatosin
                                         <span><a href="#" className='mx-1'>@olgablark</a></span>
                                     </h5>
