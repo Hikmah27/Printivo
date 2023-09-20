@@ -35,3 +35,9 @@
     position: absolute;
     top: 71%;
 }
+
+@media screen and (max-width: 768px) {
+    #hand {
+        display: none;
+    }
+}
